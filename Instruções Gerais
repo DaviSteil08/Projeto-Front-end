@@ -1,0 +1,155 @@
+📊 Trabalho em Grupo – Dashboard: Áreas da Tecnologia da Informação
+🎯 Objetivo do Trabalho
+Desenvolver um site em formato de dashboard apresentando 7 áreas da Tecnologia da Informação, utilizando HTML e CSS, com foco em:
+
+Estrutura e semântica do HTML
+Organização de conteúdo
+Acessibilidade
+Navegação entre páginas
+Trabalho em grupo
+Introdução ao versionamento de código com Git
+👥 Organização dos Grupos
+O trabalho deverá ser realizado em grupo
+Cada grupo será responsável por todo o site
+Recomenda-se que o grupo organize as tarefas entre os integrantes
+(ex: estrutura HTML, CSS, conteúdo, revisão, versionamento)
+🗂 Estrutura do Site
+O site deverá possuir 8 páginas HTML:
+
+Home (index.html)
+7 páginas, cada uma referente a uma área da TI
+Exemplo de nomes de arquivos:
+
+frontend.html (davi)
+backend.html (Diego)
+dados.html (Roriz)
+infraestrutura.html (Rabelo)
+seguranca.html (Nikinho)
+mobile.html (Roriz)
+uxui.html (Davi)
+📌 Os nomes dos arquivos devem ser claros e coerentes com o conteúdo.
+
+🔝 Header (Cabeçalho)
+✅ Obrigatório em todas as páginas
+
+O header deve conter:
+
+Nome do site ou logotipo
+Um menu de navegação horizontal
+Links para (adicione o nome correto):
+Home
+Área da TI 1
+Área da TI 2
+Área da TI 3
+Área da TI 4
+Área da TI 5
+Área da TI 6
+Área da TI 7
+📌 O menu deve ser horizontal, utilizando CSS
+📌 Todas as páginas devem ter o mesmo header, com o mesmo layout
+
+⭐ Menu ativo (destaque da página atual)
+O menu deve indicar visualmente qual página está ativa
+Como ainda não será utilizado JavaScript, esse destaque deve ser feito de forma estática
+Exemplo:
+Na página frontend.html, o link “Front-end” aparece destacado
+Na Home, o link “Home” aparece destacado
+✅ O destaque pode ser feito com:
+
+Cor diferente
+Negrito
+Substituição de fundo
+Borda inferior
+🔻 Footer (Rodapé)
+✅ Obrigatório em todas as páginas
+
+O footer deve conter:
+
+Nome do grupo
+Nome dos integrantes
+Ano
+🏠 Página Inicial – Home (index.html)
+A Home deve conter:
+
+Header
+Um texto introdutório explicando o objetivo do dashboard
+Cards para cada uma das 7 áreas da TI
+✅ Cards da Home
+Cada card deve conter:
+
+Nome da área da TI
+Uma imagem representativa
+Um link para a página da área
+📌 Importante:
+
+A imagem usada no card deve ser a mesma imagem usada na página da área
+
+No card, a imagem deve aparecer em escala menor
+
+Footer
+
+📄 Páginas das Áreas da TI
+Cada página de área deverá conter:
+
+✅ Conteúdo obrigatório
+Header
+Título da área de TI
+Uma imagem coerente com o tema
+O texto fornecido no anexo, conforme enviado no anexo, ao lado da imagem
+Footer
+📌 A imagem e o texto devem estar bem organizados visualmente
+
+✅ Conteúdo adicional (obrigatório)
+Abaixo do texto do anexo, o grupo deverá incluir outra informação relevante sobre a área, como por exemplo:
+
+Principais tecnologias utilizadas
+Possíveis atuações profissionais
+Perfil do profissional da área
+Tendências atuais
+Curiosidades ou dados do mercado
+📌 Esse conteúdo deve ser pesquisado pelo grupo e escrito com suas próprias palavras.
+
+♿ Acessibilidade (Critério Importante)
+A acessibilidade será avaliada. O site deve contemplar, no mínimo:
+
+Uso correto de HTML semântico (header, nav, main, section, footer)
+Todas as imagens devem possuir o atributo alt com descrição adequada
+Texto legível (contraste, tamanho de fonte)
+Organização lógica do conteúdo
+Links e menus claros e compreensíveis
+📌 O objetivo é tornar o site mais acessível para todos os usuários.
+
+🎨 Estilização (CSS)
+Utilizar CSS externo
+Manter padrão visual entre todas as páginas
+Cuidar de:
+Tipografia
+Cores
+Espaçamentos
+Alinhamento
+O site deve ser organizado, agradável visualmente e consistente
+🔧 Extra – Uso de Repositório Git (Orientado e Avaliado)
+Como introdução ao versionamento de código, o grupo deverá:
+
+✅ Criar um repositório Git (local ou no GitHub)
+✅ Clonar ou inicializar o repositório
+✅ Versionar o projeto com commits
+
+📌 Não é exigido domínio avançado de Git
+📌 Os commits podem ser simples, por exemplo:
+
+Estrutura inicial do projeto
+Criação do header e footer
+Página Front-end finalizada
+📌 O objetivo é conhecer e praticar o fluxo básico, não a perfeição técnica.
+
+✅ Critérios de Avaliação
+Estrutura correta do site
+Navegação funcional e clara
+Uso de header e footer em todas as páginas
+Menu horizontal com destaque da página ativa
+Organização e clareza do conteúdo
+Aplicação de conceitos básicos de acessibilidade
+Uso coerente de imagens
+Organização do trabalho em grupo
+Uso introdutório de Git
