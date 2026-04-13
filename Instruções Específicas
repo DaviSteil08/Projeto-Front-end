@@ -1,0 +1,46 @@
+📄 Páginas das Áreas da TI
+Cada página de área deverá conter:
+
+✅ Conteúdo obrigatório
+Header
+Título da área de TI
+Uma imagem coerente com o tema
+O texto fornecido no anexo, conforme enviado no anexo, ao lado da imagem
+Footer
+📌 A imagem e o texto devem estar bem organizados visualmente
+
+✅ Conteúdo adicional (obrigatório)
+Abaixo do texto do anexo, o grupo deverá incluir outra informação relevante sobre a área, como por exemplo:
+
+Principais tecnologias utilizadas
+Possíveis atuações profissionais
+Perfil do profissional da área
+Tendências atuais
+Curiosidades ou dados do mercado
+📌 Esse conteúdo deve ser pesquisado pelo grupo e escrito com suas próprias palavras.
+
+♿ Acessibilidade (Critério Importante)
+A acessibilidade será avaliada. O site deve contemplar, no mínimo:
+
+Uso correto de HTML semântico (header, nav, main, section, footer)
+Todas as imagens devem possuir o atributo alt com descrição adequada
+Texto legível (contraste, tamanho de fonte)
+Organização lógica do conteúdo
+Links e menus claros e compreensíveis
+📌 O objetivo é tornar o site mais acessível para todos os usuários.
+
+🎨 Estilização (CSS)
+Utilizar CSS externo
+Manter padrão visual entre todas as páginas
+Cuidar de:
+Tipografia
+Cores
+Espaçamentos
+Alinhamento
+O site deve ser organizado, agradável visualmente e consistente
+
+NOTA:
+
+1. Gerar um arquivo CSS para cada página. Todos serão unificados.
+2. Escolher uma imagem para usar na página - mandar ela para anexar na home page
+3. O header e o rodapé será criado por uma pessoa só
