@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UX/UI | Dashboard de Areas da TI</title>
+  <link rel="stylesheet" href="main.css">
+  <style>
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(18px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .hero-content, main section, footer { animation: fadeUp 0.7s ease both; }
+    main {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto 32px;
+      display: grid;
+      gap: 24px;
+    }
+    main section, footer {
+      padding: 24px;
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      background: var(--panel);
+      backdrop-filter: blur(12px);
+    }
+    main section h2, main section h3 { margin-bottom: 14px; letter-spacing: -0.03em; }
+    main section p, main section li, footer p { color: var(--muted); line-height: 1.7; }
+    ul { padding-left: 20px; }
+    li + li { margin-top: 8px; }
+    footer {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto 24px;
+    }
+    @media (max-width: 520px) {
+      main, footer { width: min(100% - 20px, 1180px); }
+      main section, footer { border-radius: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <nav class="navbar" aria-label="Menu principal">
+      <a class="brand" href="index.html">Tech Areas</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="frontend.html">Frontend</a></li>
+        <li><a href="backend.html">Backend</a></li>
+        <li><a href="dados.html">Dados</a></li>
+        <li><a href="infraestrutura.html">Infra</a></li>
+        <li><a href="seguranca.html">Seguranca</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+        <li><a href="uxui.html" class="active">UX/UI</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <p class="eyebrow">Area da TI</p>
+      <h1>UX/UI</h1>
+      <p class="description">
+        UX/UI integra pesquisa, arquitetura da informacao e design visual para construir produtos
+        digitais intuitivos, coerentes e eficientes do ponto de vista do usuario e do negocio.
+      </p>
+    </div>
+  </header>
+  <main>
+    <section>
+      <p class="eyebrow">Descricao tecnica</p>
+      <h2>Experiencia do usuario com foco em clareza, navegacao e valor percebido</h2>
+      <p>
+        O trabalho inclui descoberta de necessidades, mapeamento de jornadas, prototipacao, testes de usabilidade,
+        sistemas de design e melhoria continua da interface. E uma area essencial para elevar qualidade e conversao.
+      </p>
+    </section>
+    <section>
+      <p class="eyebrow">Tecnologias principais</p>
+      <h3>Stacks e ferramentas comuns</h3>
+      <ul>
+        <li>Figma, Adobe XD e ferramentas de prototipacao e handoff.</li>
+        <li>Wireframes, design systems e pesquisa com usuarios.</li>
+        <li>Testes de usabilidade, arquitetura da informacao e acessibilidade.</li>
+      </ul>
+    </section>
+    <section>
+      <p class="eyebrow">Mercado de trabalho</p>
+      <h3>Onde esse profissional atua</h3>
+      <p>
+        UX/UI tem forte demanda em empresas de produto, startups, consultorias e operacoes digitais
+        que precisam melhorar experiencia, retencao e conversao. O profissional pode atuar em pesquisa,
+        product design, interface design e design systems.
+      </p>
+    </section>
+  </main>
+  <footer>
+    <p><strong>Davi Steil</strong> | 2026 | Integrantes do grupo: ________________________________</p>
+  </footer>
+</body>
+</html>

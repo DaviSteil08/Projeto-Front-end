@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard de Areas da TI</title>
+  <link rel="stylesheet" href="main.css">
+  <style>
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(18px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .hero-content,
+    main section,
+    footer {
+      animation: fadeUp 0.7s ease both;
+    }
+
+    main {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto 32px;
+      display: grid;
+      gap: 24px;
+    }
+
+    main section,
+    footer {
+      padding: 24px;
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      background: var(--panel);
+      backdrop-filter: blur(12px);
+    }
+
+    main section h2,
+    main section h3,
+    footer h2 {
+      margin-bottom: 14px;
+      letter-spacing: -0.03em;
+    }
+
+    main section p,
+    main section li,
+    footer p {
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 18px;
+    }
+
+    article {
+      padding: 20px;
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      background: rgba(255, 255, 255, 0.03);
+      transition: transform 0.25s ease, background 0.25s ease, border-color 0.25s ease;
+    }
+
+    article:hover {
+      transform: translateY(-6px);
+      background: var(--hover);
+      border-color: rgba(255, 255, 255, 0.18);
+    }
+
+    article img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      margin-bottom: 16px;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+    }
+
+    article h3 {
+      margin-bottom: 10px;
+    }
+
+    article p {
+      margin-bottom: 16px;
+    }
+
+    article a {
+      display: inline-block;
+      padding: 10px 14px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      color: var(--accent);
+      text-decoration: none;
+      transition: 0.25s ease;
+    }
+
+    article a:hover,
+    article a:focus-visible {
+      background: var(--hover);
+    }
+
+    footer {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto 24px;
+    }
+
+    @media (max-width: 520px) {
+      main,
+      footer {
+        width: min(100% - 20px, 1180px);
+      }
+
+      main section,
+      footer,
+      article {
+        border-radius: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <nav class="navbar" aria-label="Menu principal">
+      <a class="brand" href="index.html">Tech Areas</a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="frontend.html">Frontend</a></li>
+        <li><a href="backend.html">Backend</a></li>
+        <li><a href="dados.html">Dados</a></li>
+        <li><a href="infraestrutura.html">Infra</a></li>
+        <li><a href="seguranca.html">Seguranca</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+        <li><a href="uxui.html">UX/UI</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content">
+      <p class="eyebrow">Dashboard academico</p>
+      <h1>7 Areas estrategicas da Tecnologia da Informacao</h1>
+      <p class="description">
+        Este projeto apresenta uma visao estruturada sobre as principais frentes da TI, com foco
+        em fundamentos tecnicos, tecnologias de referencia e possibilidades reais de atuacao no mercado.
+      </p>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <p class="eyebrow">Visao geral</p>
+      <h2>Explore as especialidades mais relevantes da area</h2>
+      <p>
+        Cada pagina foi organizada para facilitar a comparacao entre escopos, stacks e oportunidades
+        profissionais. O objetivo e mostrar como cada area contribui para o ciclo completo de produtos,
+        plataformas e servicos digitais.
+      </p>
+    </section>
+
+    <section>
+      <p class="eyebrow">Areas da TI</p>
+      <div class="cards-grid">
+        <article>
+          <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='320'><rect width='100%25' height='100%25' fill='%23111111'/><text x='50%25' y='50%25' fill='white' font-size='34' text-anchor='middle' dominant-baseline='middle' font-family='Arial'>Frontend</text></svg>" alt="Card representando a area de Frontend">
+          <h3>Frontend</h3>
+          <p>Construcao de interfaces, componentes interativos e experiencias web responsivas.</p>
+          <a href="frontend.html">Ver pagina</a>
+        </article>
+        <article>
+          <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='320'><rect width='100%25' height='100%25' fill='%23111111'/><text x='50%25' y='50%25' fill='white' font-size='34' text-anchor='middle' dominant-baseline='middle' font-family='Arial'>Backend</text></svg>" alt="Card representando a area de Backend">
+          <h3>Backend</h3>
+          <p>Camada responsavel por regras de negocio, APIs, integracoes e persistencia de dados.</p>
+          <a href="backend.html">Ver pagina</a>
+        </article>
+        <article>
+          <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='320'><rect width='100%25' height='100%25' fill='%23111111'/><text x='50%25' y='50%25' fill='white' font-size='34' text-anchor='middle' dominant-baseline='middle' font-family='Arial'>Dados</text></svg>" alt="Card representando a area de Dados">
+          <h3>Dados</h3>
+          <p>Analise, engenharia e ciencia de dados para gerar inteligencia de negocio.</p>
+          <a href="dados.html">Ver pagina</a>
+        </article>
+        <article>
+          <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='320'><rect width='100%25' height='100%25' fill='%23111111'/><text x='50%25' y='50%25' fill='white' font-size='30' text-anchor='middle' dominant-baseline='middle' font-family='Arial'>Infraestrutura</text></svg>" alt="Card representando a area de Infraestrutura">
+          <h3>Infraestrutura</h3>
+          <p>Gestao de redes, servidores, nuvem, disponibilidade e operacao de ambientes.</p>
+          <a href="infraestrutura.html">Ver pagina</a>
+        </article>
+        <article>
+          <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='320'><rect width='100%25' height='100%25' fill='%23111111'/><text x='50%25' y='50%25' fill='white' font-size='31' text-anchor='middle' dominant-baseline='middle' font-family='Arial'>Seguranca</text></svg>" alt="Card representando a area de Seguranca da Informacao">
+          <h3>Seguranca</h3>
+          <p>Protecao de sistemas, identidades, redes, dados e processos corporativos.</p>
+          <a href="seguranca.html">Ver pagina</a>
+        </article>
+        <article>
+          <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='320'><rect width='100%25' height='100%25' fill='%23111111'/><text x='50%25' y='50%25' fill='white' font-size='34' text-anchor='middle' dominant-baseline='middle' font-family='Arial'>Mobile</text></svg>" alt="Card representando a area de Desenvolvimento Mobile">
+          <h3>Mobile</h3>
+          <p>Desenvolvimento de aplicativos nativos e multiplataforma para dispositivos moveis.</p>
+          <a href="mobile.html">Ver pagina</a>
+        </article>
+        <article>
+          <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='320'><rect width='100%25' height='100%25' fill='%23111111'/><text x='50%25' y='50%25' fill='white' font-size='34' text-anchor='middle' dominant-baseline='middle' font-family='Arial'>UX/UI</text></svg>" alt="Card representando a area de UX e UI">
+          <h3>UX/UI</h3>
+          <p>Pesquisa, arquitetura de experiencia e design de interfaces centradas no usuario.</p>
+          <a href="uxui.html">Ver pagina</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Davi Steil</strong> | 2026 | Integrantes do grupo: ________________________________</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Backend | Dashboard de Areas da TI</title>
+  <link rel="stylesheet" href="main.css">
+  <style>
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(18px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .hero-content, main section, footer { animation: fadeUp 0.7s ease both; }
+    main {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto 32px;
+      display: grid;
+      gap: 24px;
+    }
+    main section, footer {
+      padding: 24px;
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      background: var(--panel);
+      backdrop-filter: blur(12px);
+    }
+    main section h2, main section h3 { margin-bottom: 14px; letter-spacing: -0.03em; }
+    main section p, main section li, footer p { color: var(--muted); line-height: 1.7; }
+    ul { padding-left: 20px; }
+    li + li { margin-top: 8px; }
+    footer {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto 24px;
+    }
+    @media (max-width: 520px) {
+      main, footer { width: min(100% - 20px, 1180px); }
+      main section, footer { border-radius: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <nav class="navbar" aria-label="Menu principal">
+      <a class="brand" href="index.html">Tech Areas</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="frontend.html">Frontend</a></li>
+        <li><a href="backend.html" class="active">Backend</a></li>
+        <li><a href="dados.html">Dados</a></li>
+        <li><a href="infraestrutura.html">Infra</a></li>
+        <li><a href="seguranca.html">Seguranca</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+        <li><a href="uxui.html">UX/UI</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <p class="eyebrow">Area da TI</p>
+      <h1>Backend</h1>
+      <p class="description">
+        Backend e a camada de software que implementa regras de negocio, integra servicos,
+        controla autenticacao, processa requisicoes e garante a persistencia e consistencia dos dados.
+      </p>
+    </div>
+  </header>
+  <main>
+    <section>
+      <p class="eyebrow">Descricao tecnica</p>
+      <h2>Responsavel pela inteligencia operacional da aplicacao</h2>
+      <p>
+        O desenvolvimento backend estrutura APIs, filas, microsservicos, bancos de dados e processos
+        internos que sustentam plataformas web, mobile e corporativas. E uma area fortemente ligada
+        a performance, seguranca, escalabilidade e observabilidade.
+      </p>
+    </section>
+    <section>
+      <p class="eyebrow">Tecnologias principais</p>
+      <h3>Stacks e ferramentas comuns</h3>
+      <ul>
+        <li>Node.js, Java, C# e Python para servicos e APIs.</li>
+        <li>PostgreSQL, MySQL, MongoDB e Redis para persistencia e cache.</li>
+        <li>REST, GraphQL, Docker e mensageria para integracao e escalabilidade.</li>
+      </ul>
+    </section>
+    <section>
+      <p class="eyebrow">Mercado de trabalho</p>
+      <h3>Onde esse profissional atua</h3>
+      <p>
+        O mercado absorve desenvolvedores backend em startups, fintechs, e-commerces, industrias,
+        consultorias e empresas SaaS. A atuacao pode envolver sistemas internos, plataformas de alto
+        volume, integracoes entre parceiros e modernizacao de arquiteturas legadas.
+      </p>
+    </section>
+  </main>
+  <footer>
+    <p><strong>Davi Steil</strong> | 2026 | Integrantes do grupo: ________________________________</p>
+  </footer>
+</body>
+</html>
