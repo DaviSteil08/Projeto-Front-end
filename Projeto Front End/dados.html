@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Resumo da área de Dados no projeto acadêmico TechScope.">
+  <title>TechScope | Dados</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body class="page-shell">
+  <header class="site-header">
+    <div class="site-header__inner">
+      <div class="site-header__top" data-reveal>
+        <a class="brand" href="index.html" aria-label="Página inicial do projeto TechScope">
+          <span class="brand__mark">TS</span>
+          <span class="brand__text">
+            <strong>TechScope</strong>
+            <span>Painel acadêmico sobre áreas da Tecnologia da Informação.</span>
+          </span>
+        </a>
+        <div class="site-header__summary">
+          <span class="site-header__eyebrow">Navegação em cards</span>
+          <p>Use os cards para comparar áreas sem perder o contexto do projeto enquanto navega pelas páginas internas.</p>
+        </div>
+      </div>
+
+      <nav aria-label="Menu principal">
+        <ul class="nav-list" data-stagger>
+          <li data-reveal><a class="nav-card" href="index.html"><span class="nav-card__icon" aria-hidden="true">HM</span><span class="nav-card__content"><strong>Home</strong><span>Visão geral, comparativos e acesso rápido ao projeto.</span></span></a></li>
+          <li data-reveal><a class="nav-card" href="frontend.html"><span class="nav-card__icon" aria-hidden="true">FE</span><span class="nav-card__content"><strong>Front-end</strong><span>Interface, componentes e responsividade.</span></span></a></li>
+          <li data-reveal><a class="nav-card" href="backend.html"><span class="nav-card__icon" aria-hidden="true">BE</span><span class="nav-card__content"><strong>Back-end</strong><span>Lógica, APIs e regras do sistema.</span></span></a></li>
+          <li data-reveal><a class="nav-card active" href="dados.html" aria-current="page"><span class="nav-card__icon" aria-hidden="true">DB</span><span class="nav-card__content"><strong>Dados</strong><span>Métricas, análise e inteligência de negócio.</span></span></a></li>
+          <li data-reveal><a class="nav-card" href="infraestrutura.html"><span class="nav-card__icon" aria-hidden="true">OPS</span><span class="nav-card__content"><strong>Infraestrutura</strong><span>Redes, cloud e disponibilidade da operação.</span></span></a></li>
+          <li data-reveal><a class="nav-card" href="seguranca.html"><span class="nav-card__icon" aria-hidden="true">SEC</span><span class="nav-card__content"><strong>Segurança</strong><span>Proteção, risco e monitoramento contínuo.</span></span></a></li>
+          <li data-reveal><a class="nav-card" href="mobile.html"><span class="nav-card__icon" aria-hidden="true">APP</span><span class="nav-card__content"><strong>Mobile</strong><span>Apps, contexto de uso e performance.</span></span></a></li>
+          <li data-reveal><a class="nav-card" href="uxui.html"><span class="nav-card__icon" aria-hidden="true">UX</span><span class="nav-card__content"><strong>UX/UI</strong><span>Pesquisa, fluxo e direção visual.</span></span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="page-hero__panel panel">
+          <div class="page-hero__layout" data-stagger>
+            <div class="page-hero__content" data-reveal>
+              <span class="section-badge">Dados</span>
+              <h1 class="section-title">A área que transforma informação em inteligência para decidir melhor.</h1>
+              <p class="section-description">
+                Dados ocupam papel central na TI moderna ao apoiar análises, previsões, automações e métricas de negócio.
+                Essa frente integra coleta, tratamento, armazenamento e visualização para gerar conhecimento acionável.
+              </p>
+              <ul>
+                <li>Atuação em engenharia, análise, ciência de dados e BI.</li>
+                <li>Uso de pipelines, modelagem e dashboards para apoiar decisões.</li>
+                <li>Integração direta com produto, marketing, operações e estratégia.</li>
+              </ul>
+            </div>
+            <figure class="page-hero__media" data-reveal>
+              <img src="assets/images/dados.svg" alt="Painel analítico representando a área de Dados">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section">
+      <div class="container">
+        <div class="page-section__grid" data-stagger>
+          <article class="info-card panel" data-reveal><h2>Competências-chave</h2><p>Limpeza de dados, modelagem, interpretação de métricas, construção de relatórios e leitura de tendências.</p></article>
+          <article class="info-card panel" data-reveal><h2>Ferramentas comuns</h2><p>SQL, Python, planilhas, ferramentas de BI, bancos analíticos e plataformas de processamento.</p></article>
+          <article class="info-card panel" data-reveal><h2>Relevância prática</h2><p>Ajuda equipes a reduzir incertezas e tomar decisões baseadas em padrões e evidências concretas.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="roadmap">
+      <div class="container">
+        <div class="roadmap__panel panel" data-reveal>
+          <div class="roadmap__header">
+            <div>
+              <span class="section-badge">Ciclo analítico</span>
+              <h2>Etapas típicas de uma operação orientada a dados</h2>
+            </div>
+            <p>O valor dos dados cresce quando a informação é organizada, interpretada e comunicada de forma confiável para apoiar decisões relevantes.</p>
+          </div>
+          <div class="timeline" data-stagger>
+            <article data-reveal><span>Etapa 01</span><h3>Coleta e preparo</h3><p>Captura de dados de diferentes fontes, limpeza e padronização para garantir qualidade.</p></article>
+            <article data-reveal><span>Etapa 02</span><h3>Análise e descoberta</h3><p>Leitura de padrões, comparação de cenários e construção de indicadores estratégicos.</p></article>
+            <article data-reveal><span>Etapa 03</span><h3>Visualização e ação</h3><p>Apresentação em dashboards e relatórios que direcionam decisões no negócio ou no produto.</p></article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé simples !-->
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div class="site-footer__grid" data-reveal>
+        <div><h2>Projeto</h2><p>TechScope | Panorama acadêmico sobre áreas da Tecnologia da Informação com foco em UX/UI e organização visual.</p></div>
+        <div><h2>Equipe</h2><p>Davi Steil e grupo da faculdade, refinando conteúdo e interface em conjunto.</p></div>
+        <div><h2>Ano</h2><p>2026</p></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

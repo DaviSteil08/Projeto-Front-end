@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projeto acadêmico TechScope com panorama visual das principais áreas da Tecnologia da Informação.">
+  <title>TechScope | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/home.css">
+</head>
+
+<!-- Seção Principal pra explicar o projeto -->
+<body class="page-shell page-home">
+  <header class="site-header">
+    <div class="site-header__inner">
+      <div class="site-header__top" data-reveal>
+        <a class="brand" href="index.html" aria-label="Página inicial do projeto TechScope">
+          <span class="brand__mark">TS</span>
+          <span class="brand__text">
+            <strong>TechScope</strong>
+            <span>Painel acadêmico sobre áreas da Tecnologia da Informação.</span>
+          </span>
+        </a>
+        <div class="site-header__summary">
+          <span class="site-header__eyebrow">Navegação em cards</span>
+          <p>Mapa rápido das áreas do projeto com contexto curto para a pessoa entender o clique antes de trocar de página.</p>
+        </div>
+      </div>
+
+      <!-- Menu Principal de Cards -->
+      <nav aria-label="Menu principal"> 
+        <ul class="nav-list" data-stagger>
+          <li data-reveal>
+            <a class="nav-card active" href="index.html" aria-current="page">
+              <span class="nav-card__icon" aria-hidden="true">HM</span>
+              <span class="nav-card__content">
+                <strong>Home</strong>
+                <span>Visão geral, comparativos e acesso rápido ao projeto.</span>
+              </span>
+            </a>
+          </li>
+          <li data-reveal>
+            <a class="nav-card" href="frontend.html">
+              <span class="nav-card__icon" aria-hidden="true">FE</span>
+              <span class="nav-card__content">
+                <strong>Front-end</strong>
+                <span>Interface, componentes e responsividade.</span>
+              </span>
+            </a>
+          </li>
+          <li data-reveal>
+            <a class="nav-card" href="backend.html">
+              <span class="nav-card__icon" aria-hidden="true">BE</span>
+              <span class="nav-card__content">
+                <strong>Back-end</strong>
+                <span>Lógica, APIs e regras do sistema.</span>
+              </span>
+            </a>
+          </li>
+          <li data-reveal>
+            <a class="nav-card" href="dados.html">
+              <span class="nav-card__icon" aria-hidden="true">DB</span>
+              <span class="nav-card__content">
+                <strong>Dados</strong>
+                <span>Métricas, análise e inteligência de negócio.</span>
+              </span>
+            </a>
+          </li>
+          <li data-reveal>
+            <a class="nav-card" href="infraestrutura.html">
+              <span class="nav-card__icon" aria-hidden="true">OPS</span>
+              <span class="nav-card__content">
+                <strong>Infraestrutura</strong>
+                <span>Redes, cloud e disponibilidade da operação.</span>
+              </span>
+            </a>
+          </li>
+          <li data-reveal>
+            <a class="nav-card" href="seguranca.html">
+              <span class="nav-card__icon" aria-hidden="true">SEC</span>
+              <span class="nav-card__content">
+                <strong>Segurança</strong>
+                <span>Proteção, risco e monitoramento contínuo.</span>
+              </span>
+            </a>
+          </li>
+          <li data-reveal>
+            <a class="nav-card" href="mobile.html">
+              <span class="nav-card__icon" aria-hidden="true">APP</span>
+              <span class="nav-card__content">
+                <strong>Mobile</strong>
+                <span>Apps, contexto de uso e performance.</span>
+              </span>
+            </a>
+          </li>
+          <li data-reveal>
+            <a class="nav-card" href="uxui.html">
+              <span class="nav-card__icon" aria-hidden="true">UX</span>
+              <span class="nav-card__content">
+                <strong>UX/UI</strong>
+                <span>Pesquisa, fluxo e direção visual.</span>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Seção pra explicar o projeto mais detalhadamente pra qm ainda não sabe de TI KAKAKAK-->
+  <main>
+    <section class="hero-home">
+      <div class="container">
+        <div class="hero-home__panel panel">
+          <div class="hero-home__grid">
+            <div class="hero-home__content" data-reveal>
+              <span class="section-badge">Projeto acadêmico</span>
+              <h1 class="section-title">TechScope organiza as áreas de TI com leitura rápida, contraste forte e navegação clara.</h1>
+              <p class="section-description">
+                A proposta do projeto é apresentar frentes importantes da Tecnologia da Informação sem transformar a navegação
+                em um bloco cansativo de texto. A home funciona como um mapa visual para comparar áreas, entender o papel de
+                cada uma e seguir para as páginas específicas com mais contexto.
+              </p>
+              <ul class="hero-home__chips" data-stagger>
+                <li data-reveal>Dark mode premium</li>
+                <li data-reveal>Cards com microdescrição</li>
+                <li data-reveal>Motion suave em CSS</li>
+                <li data-reveal>Estrutura fácil de apresentar</li>
+              </ul>
+              <div class="hero-home__actions">
+                <a class="button button--primary" href="#areas">Explorar áreas</a>
+                <a class="button button--ghost" href="uxui.html">Ir para UX/UI</a>
+              </div>
+            </div>
+
+            <div class="hero-home__stats" data-stagger>
+              <article class="metric-card" data-reveal>
+                <small>Estrutura</small>
+                <strong>8 páginas</strong>
+                <span>Home mais sete áreas conectadas por um mesmo sistema visual e navegação em cards.</span>
+              </article>
+              <article class="metric-card" data-reveal>
+                <small>Experiência</small>
+                <strong>Motion leve</strong>
+                <span>Entrada em fade-up e hover suave com curva cubic-bezier inspirada em interfaces mais polidas.</span>
+              </article>
+              <article class="metric-card" data-reveal>
+                <small>Entrega</small>
+                <strong>100% responsivo</strong>
+                <span>Os blocos se reorganizam no tablet e no mobile sem esconder conteúdo importante.</span>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Objejtivo do projeto -->
+    <section class="overview">
+      <div class="container">
+        <div class="overview__grid" data-stagger>
+          <article class="overview__card panel" data-reveal>
+            <span class="section-badge">Leitura do projeto</span>
+            <h2>O foco aqui não é só listar áreas, e sim deixar visível como cada frente participa de um produto digital.</h2>
+            <p>
+              Em vez de uma página genérica, o conteúdo foi organizado para mostrar responsabilidades, impacto e evolução de
+              cada área. Isso ajuda tanto na apresentação oral quanto na percepção visual de cuidado técnico e de UX/UI.
+            </p>
+          </article>
+
+          <article class="overview__highlights panel" data-reveal>
+            <h2>O que este dashboard valoriza</h2>
+            <p>Uma boa interface acadêmica também pode demonstrar repertório técnico sem parecer exagerada ou artificial.</p>
+            <ul>
+              <li>Hierarquia tipográfica forte para facilitar leitura em telas grandes e pequenas.</li>
+              <li>Cards e seções com profundidade sutil, evitando aquele visual chapado demais.</li>
+              <li>Componentes reaproveitáveis para manter consistência sem complicar o código.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="areas" id="areas">
+      <div class="container">
+        <div class="areas__header" data-reveal>
+          <div>
+            <span class="section-badge">Mapa das áreas</span>
+            <h2>Páginas que aprofundam cada frente da TI</h2>
+          </div>
+          <p>Cada card leva para uma página com resumo estratégico, competências centrais e um fluxo simples de evolução da área dentro de projetos reais.</p>
+        </div>
+
+        <!-- Deixei essa grade bem direta pq ajuda a comparar as áreas -->
+
+        <!-- Front End -->
+        <div class="areas__grid" data-stagger>
+          <a class="area-card" href="frontend.html" data-reveal>
+            <div class="area-card__image-wrap">
+              <img class="area-card__image" src="assets/images/frontend.svg" alt="Ilustração da área de Front-end">
+            </div>
+            <div class="area-card__body">
+              <div class="area-card__meta">
+                <p class="area-card__eyebrow">Front-end</p>
+                <span class="area-card__tag">Interface</span>
+              </div>
+              <h3>Camada visual e interação</h3>
+              <p>Explora como layout, componentes, acessibilidade e responsividade moldam a experiência final do usuário.</p>
+              <span class="area-card__link">Abrir página</span>
+            </div>
+          </a>
+
+          <!-- Back End -->
+          <a class="area-card" href="backend.html" data-reveal>
+            <div class="area-card__image-wrap">
+              <img class="area-card__image" src="assets/images/backend.svg" alt="Ilustração da área de Back-end">
+            </div>
+            <div class="area-card__body">
+              <div class="area-card__meta">
+                <p class="area-card__eyebrow">Back-end</p>
+                <span class="area-card__tag">Serviços</span>
+              </div>
+              <h3>Lógica, APIs e consistência</h3>
+              <p>Mostra o papel da camada que processa regras, integra sistemas e sustenta a estabilidade da aplicação.</p>
+              <span class="area-card__link">Abrir página</span>
+            </div>
+          </a>
+
+          <!-- Dados -->
+          <a class="area-card" href="dados.html" data-reveal>
+            <div class="area-card__image-wrap">
+              <img class="area-card__image" src="assets/images/dados.svg" alt="Ilustração da área de Dados">
+            </div>
+            <div class="area-card__body">
+              <div class="area-card__meta">
+                <p class="area-card__eyebrow">Dados</p>
+                <span class="area-card__tag">Analytics</span>
+              </div>
+              <h3>Informação que apoia decisão</h3>
+              <p>Resume a frente que coleta, organiza, analisa e comunica padrões úteis para negócio e produto.</p>
+              <span class="area-card__link">Abrir página</span>
+            </div>
+          </a>
+
+          <!-- Infraestrutura -->
+          <a class="area-card" href="infraestrutura.html" data-reveal>
+            <div class="area-card__image-wrap">
+              <img class="area-card__image" src="assets/images/infraestrutura.svg" alt="Ilustração da área de Infraestrutura">
+            </div>
+            <div class="area-card__body">
+              <div class="area-card__meta">
+                <p class="area-card__eyebrow">Infraestrutura</p>
+                <span class="area-card__tag">Cloud</span>
+              </div>
+              <h3>Base operacional dos sistemas</h3>
+              <p>Apresenta a sustentação técnica que mantém aplicações disponíveis, rápidas e preparadas para crescer.</p>
+              <span class="area-card__link">Abrir página</span>
+            </div>
+          </a>
+
+          <!-- Segurança -->
+          <a class="area-card" href="seguranca.html" data-reveal>
+            <div class="area-card__image-wrap">
+              <img class="area-card__image" src="assets/images/seguranca.svg" alt="Ilustração da área de Segurança da Informação">
+            </div>
+            <div class="area-card__body">
+              <div class="area-card__meta">
+                <p class="area-card__eyebrow">Segurança</p>
+                <span class="area-card__tag">Proteção</span>
+              </div>
+              <h3>Defesa e continuidade digital</h3>
+              <p>Explica como políticas, monitoramento e resposta a incidentes reduzem risco e preservam confiança.</p>
+              <span class="area-card__link">Abrir página</span>
+            </div>
+          </a>
+
+          <!-- Mobile -->
+          <a class="area-card" href="mobile.html" data-reveal>
+            <div class="area-card__image-wrap">
+              <img class="area-card__image" src="assets/images/mobile.svg" alt="Ilustração da área de Desenvolvimento Mobile">
+            </div>
+            <div class="area-card__body">
+              <div class="area-card__meta">
+                <p class="area-card__eyebrow">Mobile</p>
+                <span class="area-card__tag">Apps</span>
+              </div>
+              <h3>Experiência pensada para o toque</h3>
+              <p>Destaca o cuidado com fluidez, contexto de uso, limitações de tela e integração com recursos do dispositivo.</p>
+              <span class="area-card__link">Abrir página</span>
+            </div>
+          </a>
+
+          <!-- UX/UI -->
+          <a class="area-card" href="uxui.html" data-reveal>
+            <div class="area-card__image-wrap">
+              <img class="area-card__image" src="assets/images/uxui.svg" alt="Ilustração da área de UX e UI">
+            </div>
+            <div class="area-card__body">
+              <div class="area-card__meta">
+                <p class="area-card__eyebrow">UX/UI</p>
+                <span class="area-card__tag">Design</span>
+              </div>
+              <h3>Pesquisa, fluxo e visual final</h3>
+              <p>Mostra a área que traduz necessidades em jornadas claras, interfaces consistentes e percepção de valor.</p>
+              <span class="area-card__link">Abrir página</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé simples !-->
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div class="site-footer__grid" data-reveal>
+        <div>
+          <h2>Projeto</h2>
+          <p>TechScope | Panorama acadêmico sobre áreas da Tecnologia da Informação com foco em UX/UI e organização visual.</p>
+        </div>
+        <div>
+          <h2>Equipe</h2>
+          <p>Davi Steil e grupo da faculdade, refinando conteúdo e interface em conjunto.</p>
+        </div>
+        <div>
+          <h2>Ano</h2>
+          <p>2026</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
