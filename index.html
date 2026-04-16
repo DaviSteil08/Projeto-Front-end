@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Resumo da área de Back-end no projeto acadêmico TI Guide.">
+  <title>TI Guide | Back-end</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://googleapis.com" rel="stylesheet">
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="page-shell">
+  <header class="site-header">
+    <div class="site-header__inner">
+      <div class="site-header__top" data-reveal>
+        <a class="brand" href="index.html" aria-label="Página inicial do projeto TI Guide">
+          <span class="brand__mark">TS</span>
+          <span class="brand__text">
+            <strong class="brand__title">TI Guide</strong>
+            <span>Painel acadêmico sobre áreas da Tecnologia da Informação.</span>
+          </span>
+        </a>
+        <div class="site-header__summary">
+          <span class="site-header__eyebrow">Navegação em cards</span>
+          <p>Use os cards para comparar áreas sem perder o contexto do projeto.</p>
+        </div>
+      </div>
+
+      <nav aria-label="Menu principal">
+        <ul class="nav-list" data-stagger>
+          <li data-reveal><a class="nav-card" href="index.html"><span class="nav-card__icon" aria-hidden="true">HM</span><span class="nav-card__content"><strong>Home</strong><span>Visão geral e comparativos.</span></span></a></li>
+          <li data-reveal><a class="nav-card" href="frontend.html"><span class="nav-card__icon" aria-hidden="true">FE</span><span class="nav-card__content"><strong>Front-end</strong><span>Interface e componentes.</span></span></a></li>
+          <li data-reveal><a class="nav-card active" href="backend.html" aria-current="page"><span class="nav-card__icon" aria-hidden="true">BE</span><span class="nav-card__content"><strong>Back-end</strong><span>Lógica, APIs e sistemas.</span></span></a></li>
+          <li data-reveal><a class="nav-card" href="dados.html"><span class="nav-card__icon" aria-hidden="true">DB</span><span class="nav-card__content"><strong>Dados</strong><span>Métricas e inteligência.</span></span></a></li>
+          <li data-reveal><a class="nav-card" href="infraestrutura.html"><span class="nav-card__icon" aria-hidden="true">OPS</span><span class="nav-card__content"><strong>Infra</strong><span>Redes e disponibilidade.</span></span></a></li>
+          <li data-reveal><a class="nav-card" href="seguranca.html"><span class="nav-card__icon" aria-hidden="true">SEC</span><span class="nav-card__content"><strong>Segurança</strong><span>Proteção e monitoramento.</span></span></a></li>
+          <li data-reveal><a class="nav-card" href="mobile.html"><span class="nav-card__icon" aria-hidden="true">APP</span><span class="nav-card__content"><strong>Mobile</strong><span>Apps e performance.</span></span></a></li>
+          <li data-reveal><a class="nav-card" href="uxui.html"><span class="nav-card__icon" aria-hidden="true">UX</span><span class="nav-card__content"><strong>UX/UI</strong><span>Pesquisa e visual.</span></span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="page-hero__panel panel">
+          <div class="page-hero__layout" data-stagger>
+            <div class="page-hero__content" data-reveal>
+              <span class="section-badge">Back-end</span>
+              <h1 class="section-title">A inteligência estrutural que sustenta regras e dados.</h1>
+              <p class="section-description">
+                O Back-end concentra o processamento por trás das interfaces. É onde vivem as regras de negócio, persistência e a lógica que garante escalabilidade.
+              </p>
+              <ul class="hero-list">
+                <li>Criação de APIs e serviços integrados.</li>
+                <li>Modelagem de dados e fluxos críticos.</li>
+                <li>Base para confiabilidade do produto.</li>
+              </ul>
+            </div>
+            <figure class="page-hero__media" data-reveal>
+              <img src="assets/images/backend.svg" alt="Back-end diagram">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section">
+      <div class="container">
+        <div class="page-section__grid" data-stagger>
+          <article class="info-card panel" data-reveal>
+            <h2>Responsabilidades</h2>
+            <p>Processar requisições e aplicar regras de negócio de forma segura.</p>
+          </article>
+          <article class="info-card panel" data-reveal>
+            <h2>Tecnologias</h2>
+            <p>Node.js, Python, SQL/NoSQL, Cloud Services e Autenticação.</p>
+          </article>
+          <article class="info-card panel" data-reveal>
+            <h2>Estratégia</h2>
+            <p>Garante que as operações funcionem com consistência e escala.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="roadmap">
+      <div class="container">
+        <div class="roadmap__panel panel" data-reveal>
+          <div class="roadmap__header">
+            <div>
+              <span class="section-badge">Arquitetura</span>
+              <h2>Fluxo de maturidade da camada de serviços</h2>
+            </div>
+            <p>Projetos sólidos definem como os dados são validados e processados.</p>
+          </div>
+          <div class="timeline" data-stagger>
+            <article data-reveal><span>01</span><h3>Entrada</h3><p>Validação e organização de rotas e permissões.</p></article>
+            <article data-reveal><span>02</span><h3>Lógica</h3><p>Execução das regras que sustentam a aplicação.</p></article>
+            <article data-reveal><span>03</span><h3>Escala</h3><p>Armazenamento e monitoramento para estabilidade.</p></article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div class="site-footer__grid" data-reveal>
+        <div><h2>Projeto</h2><p>TI Guide | Panorama acadêmico sobre tecnologia.</p></div>
+        <div><h2>Equipe</h2><p>Davi Steil e grupo acadêmico.</p></div>
+        <div><h2>Ano</h2><p>2026</p></div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
