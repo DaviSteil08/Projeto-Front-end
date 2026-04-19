@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustracao Infraestrutura</title>
+  <desc id="desc">Camadas de nuvem, servidores e conectividade.</desc>
+  <rect width="1200" height="760" rx="48" fill="#0a1222" />
+  <circle cx="1020" cy="160" r="120" fill="#818cf8" opacity="0.15" />
+  <circle cx="180" cy="620" r="160" fill="#38bdf8" opacity="0.11" />
+  <path d="M388 292C410 242 452 208 504 208C566 208 616 258 620 320H390C390 310 388 302 388 292Z" fill="#c4b5fd" opacity="0.82" />
+  <path d="M584 292C608 238 656 200 714 200C790 200 850 260 850 336H588C588 322 586 308 584 292Z" fill="#93c5fd" opacity="0.84" />
+  <rect x="180" y="346" width="840" height="250" rx="34" fill="#0f1b31" stroke="#c4b5fd" stroke-opacity="0.22" />
+  <rect x="236" y="392" width="220" height="158" rx="24" fill="#12223d" />
+  <rect x="490" y="392" width="220" height="158" rx="24" fill="#12223d" />
+  <rect x="744" y="392" width="220" height="158" rx="24" fill="#12223d" />
+  <path d="M456 470H490" stroke="#93c5fd" stroke-width="10" stroke-linecap="round" />
+  <path d="M710 470H744" stroke="#93c5fd" stroke-width="10" stroke-linecap="round" />
+  <path d="M346 346V304H718V346" fill="none" stroke="#93c5fd" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="274" y="432" width="144" height="20" rx="10" fill="#ffffff" opacity="0.9" />
+  <rect x="274" y="468" width="112" height="14" rx="7" fill="#cbd5e1" opacity="0.54" />
+  <rect x="528" y="432" width="144" height="20" rx="10" fill="#ffffff" opacity="0.9" />
+  <rect x="528" y="468" width="112" height="14" rx="7" fill="#cbd5e1" opacity="0.54" />
+  <rect x="782" y="432" width="144" height="20" rx="10" fill="#ffffff" opacity="0.9" />
+  <rect x="782" y="468" width="112" height="14" rx="7" fill="#cbd5e1" opacity="0.54" />
+</svg>
