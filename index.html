@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projeto acadêmico TechScope com panorama visual das principais áreas da Tecnologia da Informação.">
+  <title>TechScope | Home</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <script>document.documentElement.classList.add('js');</script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="page-shell page-home">
+
+<header class="site-header">
+  <div class="site-header__inner">
+
+    <div class="site-header__top" data-reveal>
+      <a class="brand" href="index.html" aria-label="Página inicial do projeto TechScope">
+        <span class="brand__mark">TS</span>
+        <span class="brand__text">
+          <strong>TechScope</strong>
+          <span>Painel acadêmico sobre áreas da Tecnologia da Informação.</span>
+        </span>
+      </a>
+
+      <div class="site-header__summary">
+        <span class="site-header__eyebrow">Navegação em cards</span>
+        <p>Mapa rápido das áreas com contexto direto antes da navegação.</p>
+      </div>
+    </div>
+
+    <!-- NAV -->
+    <nav aria-label="Menu principal">
+      <ul class="nav-list" data-stagger>
+
+        <li data-reveal>
+          <a class="nav-card active" href="index.html" aria-current="page">
+            <span class="nav-card__icon">HM</span>
+            <span class="nav-card__content">
+              <strong>Home</strong>
+              <span>Visão geral e comparativos.</span>
+            </span>
+          </a>
+        </li>
+
+        <li data-reveal>
+          <a class="nav-card" href="frontend.html">
+            <span class="nav-card__icon">FE</span>
+            <span class="nav-card__content">
+              <strong>Front-end</strong>
+              <span>Interface e experiência.</span>
+            </span>
+          </a>
+        </li>
+
+        <li data-reveal>
+          <a class="nav-card" href="backend.html">
+            <span class="nav-card__icon">BE</span>
+            <span class="nav-card__content">
+              <strong>Back-end</strong>
+              <span>Lógica e APIs.</span>
+            </span>
+          </a>
+        </li>
+
+        <li data-reveal>
+          <a class="nav-card" href="dados.html">
+            <span class="nav-card__icon">DB</span>
+            <span class="nav-card__content">
+              <strong>Dados</strong>
+              <span>Análise e métricas.</span>
+            </span>
+          </a>
+        </li>
+
+        <li data-reveal>
+          <a class="nav-card" href="infraestrutura.html">
+            <span class="nav-card__icon">OPS</span>
+            <span class="nav-card__content">
+              <strong>Infra</strong>
+              <span>Cloud e operação.</span>
+            </span>
+          </a>
+        </li>
+
+        <li data-reveal>
+          <a class="nav-card" href="seguranca.html">
+            <span class="nav-card__icon">SEC</span>
+            <span class="nav-card__content">
+              <strong>Segurança</strong>
+              <span>Proteção e monitoramento.</span>
+            </span>
+          </a>
+        </li>
+
+        <li data-reveal>
+          <a class="nav-card" href="mobile.html">
+            <span class="nav-card__icon">APP</span>
+            <span class="nav-card__content">
+              <strong>Mobile</strong>
+              <span>Apps e performance.</span>
+            </span>
+          </a>
+        </li>
+
+        <li data-reveal>
+          <a class="nav-card" href="uxui.html">
+            <span class="nav-card__icon">UX</span>
+            <span class="nav-card__content">
+              <strong>UX/UI</strong>
+              <span>Design e experiência.</span>
+            </span>
+          </a>
+        </li>
+
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero-home">
+  <div class="container">
+    <div class="hero-home__panel panel">
+      <div class="hero-home__grid">
+
+        <div class="hero-home__content" data-reveal>
+          <span class="section-badge">Projeto acadêmico</span>
+
+          <h1 class="section-title">
+            TechScope organiza as áreas de TI com leitura rápida e navegação clara.
+          </h1>
+
+          <p class="section-description">
+            A proposta é apresentar as áreas da TI de forma visual e direta, permitindo comparação rápida
+            e entendimento sem sobrecarregar o usuário com texto excessivo.
+          </p>
+
+          <ul class="hero-home__chips" data-stagger>
+            <li data-reveal>Dark mode premium</li>
+            <li data-reveal>Cards com contexto</li>
+            <li data-reveal>Motion suave</li>
+            <li data-reveal>Estrutura clara</li>
+          </ul>
+
+          <div class="hero-home__actions">
+            <a class="button button--primary" href="#areas">Explorar áreas</a>
+            <a class="button button--ghost" href="uxui.html">UX/UI</a>
+          </div>
+        </div>
+
+        <div class="hero-home__stats" data-stagger>
+
+          <article class="metric-card" data-reveal>
+            <small>Estrutura</small>
+            <strong>8 páginas</strong>
+            <span>Sistema completo com navegação consistente.</span>
+          </article>
+
+          <article class="metric-card" data-reveal>
+            <small>Experiência</small>
+            <strong>Motion suave</strong>
+            <span>Animações leves com foco em fluidez.</span>
+          </article>
+
+          <article class="metric-card" data-reveal>
+            <small>Entrega</small>
+            <strong>Responsivo</strong>
+            <span>Funciona bem em desktop e mobile.</span>
+          </article>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ÁREAS -->
+<section class="areas" id="areas">
+  <div class="container">
+
+    <div class="areas__header" data-reveal>
+      <span class="section-badge">Mapa das áreas</span>
+      <h2>Páginas específicas de cada área da TI</h2>
+      <p>Explore cada frente com contexto técnico e aplicação prática.</p>
+    </div>
+
+    <div class="areas__grid" data-stagger>
+
+      <!-- Front -->
+      <a class="area-card" href="frontend.html" data-reveal>
+        <img src="assets/img/frontend.svg" alt="Front-end">
+        <h3>Front-end</h3>
+        <p>Interface e interação com o usuário.</p>
+      </a>
+
+      <!-- Back -->
+      <a class="area-card" href="backend.html" data-reveal>
+        <img src="assets/img/backend.svg" alt="Back-end">
+        <h3>Back-end</h3>
+        <p>Lógica e processamento de dados.</p>
+      </a>
+
+      <!-- Dados -->
+      <a class="area-card" href="dados.html" data-reveal>
+        <img src="assets/img/dados.svg" alt="Dados">
+        <h3>Dados</h3>
+        <p>Análise e inteligência.</p>
+      </a>
+
+      <!-- Infra -->
+      <a class="area-card" href="infraestrutura.html" data-reveal>
+        <img src="assets/img/infraestrutura.svg" alt="Infraestrutura">
+        <h3>Infraestrutura</h3>
+        <p>Base e operação de sistemas.</p>
+      </a>
+
+      <!-- Segurança -->
+      <a class="area-card" href="seguranca.html" data-reveal>
+        <img src="assets/img/seguranca.svg" alt="Segurança">
+        <h3>Segurança</h3>
+        <p>Proteção e monitoramento.</p>
+      </a>
+
+      <!-- Mobile -->
+      <a class="area-card" href="mobile.html" data-reveal>
+        <img src="assets/img/mobile.svg" alt="Mobile">
+        <h3>Mobile</h3>
+        <p>Aplicações móveis.</p>
+      </a>
+
+      <!-- UX -->
+      <a class="area-card" href="uxui.html" data-reveal>
+        <img src="assets/img/uxui.svg" alt="UX/UI">
+        <h3>UX/UI</h3>
+        <p>Experiência e design.</p>
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div class="site-footer__grid">
+
+      <div>
+        <h2>Projeto</h2>
+        <p>TechScope | Panorama acadêmico sobre TI.</p>
+      </div>
+
+      <div>
+        <h2>Equipe</h2>
+        <p>Davi Steil, Diego Fogassa, Guilherme Rabelo, Guilherme Roriz, Nikolas Reges</p>
+      </div>
+
+      <div>
+        <h2>Ano</h2>
+        <p>2026</p>
+      </div>
+
+      <div>
+        <h2>Copyright</h2>
+        <p>&copy; 2026 TechScope. Todos os direitos reservados.</p>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
